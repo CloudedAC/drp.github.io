@@ -1,0 +1,29 @@
+.text {
+    color: #004AAD;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Horizontally center elements */
+     /* Vertically center elements */
+    height: 100vh; /* Set the height of the body to the full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 1rem 6rem;
+}
+
+.button {
+    color: #000000;
+    border: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1000px;
+    transition: all 0.3s ease;
+    margin-left: 790px;
+}
+
+.button:hover {
+    background-color: #535050;
+    color: #fffcfc;
+}
